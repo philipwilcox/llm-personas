@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-personas"
+version = "0.1.0"
+description = "Python code to create LLM-based personas that can either delegate to others or directly return responses using a \"proposed persona result\" pattern to enable human intervention and replay at any given point in the process"
+authors = ["Phil <philip@philipwilcox.com>"]
+license = "CC-BY-NC-ND-4.0"
+readme = "README.md"
+packages = [{include = "python_personas"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
