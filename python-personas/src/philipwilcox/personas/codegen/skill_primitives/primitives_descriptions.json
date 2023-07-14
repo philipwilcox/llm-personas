@@ -1,0 +1,10 @@
+[
+    {
+        "name": "factorial",
+        "description": "This method calculates the factorial of a given number. The factorial of a number is the product of all positive integers less than or equal to that number. It uses recursion to calculate the factorial. If the input number is less than 0, it raises an exception.",
+        "method_signature": "Primitives.factorial(x: int) -> int",
+        "input_description": "The method takes one input parameter 'x' which is an integer. The integer should be non-negative.",
+        "output_description": "The method returns an integer which is the factorial of the input number.",
+        "module_path": "src.philipwilcox.personas.codegen.skill_primitives.primitives"
+    }
+]
