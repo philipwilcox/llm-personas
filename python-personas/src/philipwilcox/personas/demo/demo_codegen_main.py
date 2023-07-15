@@ -22,7 +22,7 @@ from src.philipwilcox.personas.demo.rewriter import Rewriter
 # Needed so this is in sys.modules for reading-from
 from src.philipwilcox.personas.codegen.skill_primitives.primitives import Primitives
 
-
+logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 # TODO: can I set logging to debug just for my classes?

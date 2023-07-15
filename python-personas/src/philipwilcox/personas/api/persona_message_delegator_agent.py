@@ -68,6 +68,7 @@ class PersonaMessageDelegatorAgent(PersonaMessageDelegator):
         if self.current_delegate is None:
             new_delegate_name = pr.recipient
             assert new_delegate_name
+            # TODO: sometimes my current prompts are wrapping this in too many quotes
             new_delegate = self.delegation_info.delegate_personas_by_name[
                 new_delegate_name
             ]

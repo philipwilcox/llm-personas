@@ -5,6 +5,7 @@
 
 
 # TODO: NEXT STEPS
+[ ] TODO: refactor logging levels
 [ ] TODO: make a differently-nested dialogue persona: one sub-persona PER MOOD with different dialogue styles and a nested-"mood selection" subpersona that deals more explicitly with multiple-message-history-at-once (probably code driven)
 [ ] TODO: unit testing/config - make things like Messenger optionally injectable for testing
 [ ] # TODO: rewrite PersonaMessage to have "is_user" and "is_assistant" and "create_user" and "create_assistant" etc instead of doing type checks...
